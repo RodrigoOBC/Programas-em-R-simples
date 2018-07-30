@@ -1,0 +1,5 @@
+pessoas.df = data.frame(nome = c('Nathy','pedro','erick'), sexo = c('F','M','M'),
+                        salario = c(1200.00,1000.00,2500.00))
+ganhapouco =  pessoas.df[pessoas.df$salario < 1100,]
+ganhabem = pessoas.df[pessoas.df$salario > 1100 & pessoas.df$salario < 2000,]
+ganhapouco =  pessoas.df[pessoas.df$salario < 1100,]
